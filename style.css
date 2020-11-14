@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1440px;
+    display: flex;
+    background-color:hsl(185, 75%, 39%) ;
+max-width: 600px;
+font-weight: 18px;
+font-family: Kumbh Sans;
+background-image:url(images/bg-pattern-top.svg);
+
+
+}
+
+.card
+{
+    display: flex;
+    background-image: url(images/bg-pattern-card.svg);
+    background-repeat:repeat-x;
+    background-color: white;
+    left:350px;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+
+    top:100px;
+}
+
+img{
+    border-radius: 50%;
+    width: 70%;
+    position: relative;
+    top:100px;
+    border:1px solid white;
+    left:120px;
+     }
+
+
+     #name{
+         display: flex;
+         position:relative;
+         top:170px;
+         color:  hsl(229, 23%, 23%);
+         left:-40px;
+     }
+     #age{display: flex;
+        position:relative;
+       color: hsl(227, 10%, 46%);
+        top:145px;
+        left: 150px;
+
+     }
+     #city{display: flex;
+         position: relative;
+         top: 150px;
+         left: 30px;
+         color:hsl(227, 10%, 46%);
+     }
+     #k{display:flex;
+        position: relative;
+         color:hsl(229, 23%, 23%);
+         font-weight: bold;
+         top:220px;
+         right: 60px;
+     }
+     #followers{display:flex;
+        position: relative;
+        color:hsl(227, 10%, 46%);
+        top:220px;
+        right: 80px;
+    }
+
+    #k2{
+        display: flex;
+        position:relative;
+        color:hsl(229, 23%, 23%);
+        font-weight: bold;
+        top:182px;
+        right:-30px;
+    }
+
+    #likes{
+        display: flex;
+        position:relative;
+        color:hsl(227, 10%, 46%);
+        top:182px;
+        right:-30px;
+    }
+    #k3{
+        display: flex;
+        position:relative;
+        color:hsl(229, 23%, 23%);
+        font-weight: bold;
+        top:146px;
+        right:-120px;
+    }
+    #photos{
+        display: flex;
+        position:relative;
+        color:hsl(227, 10%, 46%);
+        top:146px;
+        right:-120px;
+    }
+    .attribution,.attribution a{
+        display: flexbox;
+     padding-top: 500px;
+     color: hsl(229, 23%, 23%);
+      
+    }
+
+    @media screen and(max-width:800%){
+        .container{
+            display:flex;
+            flex-direction: column;
+            padding: 0 20px;
+            margin: auto;
+
+        }
+        .attribution,.attribution a{
+            padding-top: 500px;
+        }
+    }
+    @media screen and(max-width:375px){
+       .container{
+            padding:0px;
+        }
+    }
+
+   
